@@ -586,7 +586,7 @@ def train(model, train_loader, val_loader, device, epochs, lr_scheduler, scaler,
                 nsp_loss_list.clear()
                 
                 if elapsed_time > 6.5:
-                    print(f"Approaching 7-hour limit. Stopping training early.")
+                    print(f"Stopping training early.")
                     return model
         
         if save_path:
