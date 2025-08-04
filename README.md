@@ -1,4 +1,4 @@
-# Urdu BERT — PyTorch Implementation
+# Urdu BERT - PyTorch Implementation
 
 i implemented BERT **from-scratch pretraining pipeline on the Urdu language**, in **pure PyTorch**. It is designed for full control over data preprocessing, tokenization, and model internals without relying on high level abstractions like HuggingFace `Trainer`.
 
