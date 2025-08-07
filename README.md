@@ -1,6 +1,6 @@
 # Urdu-BERT Pretraining (PyTorch)
 
-I implemented **BERT model from scratch with Pytorch** on **Urdu news text**. It uses **Masked Language Modeling (MLM)** and **Next Sentence Prediction (NSP)** tasks, just like the original BERT model.
+I implemented BERT model from scratch with Pytorch on Urdu data. It uses **Masked Language Modeling (MLM)** and **Next Sentence Prediction (NSP)** tasks, just like the original BERT model.
 
 ---
 
