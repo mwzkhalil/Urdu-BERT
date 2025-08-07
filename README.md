@@ -37,6 +37,11 @@ Below is an example of the loss curve during training:
 
 > This shows MLM loss, NSP loss, and total loss reducing over time.
 
+## 🔗 Model on Hugging Face
+
+You can find the model here:  
+👉 [Bert-Urdu](https://huggingface.co/mahwizzzz/Urdu-Bert)  
+
 ---
 ## 🛠 How to Run
 
@@ -59,19 +64,18 @@ Checkpoints will be saved in the checkpoints/ folder.
 
 ## 📁 Folders
 
-    datasets/ – Preprocessed Urdu text
-
-    bert-ur-1/ – Custom tokenizer files (vocab.txt, etc.)
-
-    checkpoints/ – Model weights saved per epoch
+- datasets/ – Preprocessed Urdu text
+- bert-ur-1/ – Custom tokenizer files (vocab.txt, etc.)
+- checkpoints/ – Model weights saved per epoch
 
 ## 📌 Notes
 
-    NSP uses random sentence pairs for false samples
+- NSP uses random sentence pairs for false samples
+- Positional embeddings are created using sin/cos
+- Custom learning rate scheduler with warm-up
+- Model is built completely from scratch (no pretrained weights)
 
-    Positional embeddings are created using sin/cos
+## 📚 References
 
-    Custom learning rate scheduler with warm-up
-
-    Model is built completely from scratch (no pretrained weights)
-
+- [BERT from Scratch (Medium)](https://medium.com/data-and-beyond/complete-guide-to-building-bert-model-from-sratch-3e6562228891)
+- [PyTorch BERT Tutorial](https://ai.plainenglish.io/bert-pytorch-implementation-prepare-dataset-part-1-efd259113e5a)
