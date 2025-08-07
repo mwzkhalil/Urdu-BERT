@@ -33,7 +33,7 @@ I implemented **BERT model from scratch with Pytorch** on **Urdu news text**. It
 
 Below is an example of the loss curve during training:
 
-![WandB Loss Graph](loss.png)
+![WandB Loss Graph](images/loss.png)
 
 > This shows MLM loss, NSP loss, and total loss reducing over time.
 
